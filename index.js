@@ -1,6 +1,6 @@
 const TelegramApi = require('node-telegram-bot-api')
 const http = require('http');
-require('dotenv').config()
+
 
 const server = http.createServer((req, res) => {})
 server.listen(process.env.PORT || 5050)
