@@ -3,7 +3,7 @@ const http = require('http');
 
 const PORT = 5000;
 const server = http.createServer((req, res) => {})
-server.listen(PORT || 5050)
+server.listen(process.env.PORT || 5050)
 const token = '5274353845:AAG--zZWI0AaebM_hOFEr4KmtN2Gxjop1B4'
 
 const bot = new TelegramApi(token, {polling: true})
